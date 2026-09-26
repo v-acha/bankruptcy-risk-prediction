@@ -1,6 +1,18 @@
+# Python and notebooks
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .venv/
+venv/
+
+# Local credentials and settings
 .env
+.env.*
+!.env.example
+
+# Local logs and OS files
+*.log
 .DS_Store
